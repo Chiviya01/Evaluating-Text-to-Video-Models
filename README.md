@@ -3,13 +3,12 @@
 <table>
   <tr>
     <td><img src="assets/im1.png" alt="Alt Text"></td>
-    <td><img src="assets/im2.png" alt="Alt Text"></td>
-    <td><img src="assets/im3.png" alt="Alt Text"></td>
-    <td><img src="assets/im4.png" alt="Alt Text"></td>
-    <td><img src="assets/im5.png" alt="Alt Text"></td>
+    <td><img src="assets/im2.gif" alt="Alt Text"></td>
+    <td><img src="assets/im3.gif" alt="Alt Text"></td>
+    <td><img src="assets/im4.gif" alt="Alt Text"></td>
+    <td><img src="assets/im5.gif" alt="Alt Text"></td>
   </tr>
 </table>
-
 
 This project represents a convergence of machine learning, video and image processing, and natural language processing (NLP) in pursuit of a novel and innovative quality evaluation metric for video output from text-to-video models. The project combines a custom-built image naturalness and human interpretability classifier with advanced text similarity techniques to produce more precise and dependable performance scores. This initiative employs the latest state-of-the-art image generation and processing technology to enhance user experience and elevate quality of generated videos.
 
