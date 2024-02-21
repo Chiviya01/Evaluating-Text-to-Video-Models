@@ -1,0 +1,3 @@
+transformers==4.27.0
+opencv-python
+ffmpeg-python
