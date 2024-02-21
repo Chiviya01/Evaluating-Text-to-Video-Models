@@ -1,8 +1,9 @@
 # Evaluating Text-to-Video Models
 
+### Examples from [Text2Video-Zero model](https://github.com/Picsart-AI-Research/Text2Video-Zero?tab=readme-ov-file)
 <table>
   <tr>
-    <td><img src="assets/im1.png" alt="Alt Text"></td>
+    <td><img src="assets/im1.gif" alt="Alt Text"></td>
     <td><img src="assets/im2.gif" alt="Alt Text"></td>
     <td><img src="assets/im3.gif" alt="Alt Text"></td>
     <td><img src="assets/im4.gif" alt="Alt Text"></td>

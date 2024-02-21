@@ -26,6 +26,7 @@ The output of the notebook is saved to the directory "../../generated_videos/$MO
 Each video is named after the caption used to generate it.
 
 ---
-## Other Models
-Aphantasia https://github.com/eps696/aphantasia .
-Tune-a-Video https://github.com/showlab/Tune-A-Video These models have available google collab to generate videos. 
+## Other Models. These models have available google collab to generate videos.
+Aphantasia https://github.com/eps696/aphantasia.
+Tune-a-Video https://github.com/showlab/Tune-A-Video.  
+Text2Video-Zero https://github.com/Picsart-AI-Research/Text2Video-Zero. 
