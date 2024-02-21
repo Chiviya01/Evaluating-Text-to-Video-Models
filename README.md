@@ -1,8 +1,17 @@
 # Evaluating Text-to-Video Models
 
-This project represents a convergence of machine learning, video and image processing, and natural language processing (NLP) in pursuit of a novel and innovative quality evaluation metric for video output from text-to-video models. The project combines a custom-built image naturalness and human interpretability classifier with advanced text similarity techniques to produce more precise and dependable performance scores. This initiative employs the latest state-of-the-art image generation and processing technology to enhance user experience and elevate quality of generated videos.
+<table>
+  <tr>
+    <td><img src="assets/im1.png" alt="Alt Text"></td>
+    <td><img src="assets/im2.png" alt="Alt Text"></td>
+    <td><img src="assets/im3.png" alt="Alt Text"></td>
+    <td><img src="assets/im4.png" alt="Alt Text"></td>
+    <td><img src="assets/im5.png" alt="Alt Text"></td>
+  </tr>
+</table>
 
-Our paper covering our work can be found [here](Chivileva_Lynch_FinalYearProject.pdf).
+
+This project represents a convergence of machine learning, video and image processing, and natural language processing (NLP) in pursuit of a novel and innovative quality evaluation metric for video output from text-to-video models. The project combines a custom-built image naturalness and human interpretability classifier with advanced text similarity techniques to produce more precise and dependable performance scores. This initiative employs the latest state-of-the-art image generation and processing technology to enhance user experience and elevate quality of generated videos.
 
 ## About the Project
 
@@ -14,11 +23,11 @@ The next part is the V2T model this is stored in [Video Caption Generator](video
 ![Metric Workflow](assets/metric_ensemble2.png)
 The metric workflow shown above, can be divided into two parts.
 The first part involves data generation, depicted in blue and yellow boxes on the left-hand side of the figure. Starting with an initial text prompt, we generate a video using a T2V model. Then, we use the generated video to produce a list of captions using BLIP-2.
-The second part involves the ensemble of two metrics, which starts with the Text Similarity Metric presented in [Text Similarity](Textual_Semantic_Similarity). This metric calculates the similarity score between the original text prompt and the BLIP-generated captions, ranging from 0 to 1. Next, we use the Naturalness Metric described in [Video Naturalness](Video_Naturalness) section, a customised XGBoost classifier that takes the generated video as input and outputs a score ranging from 0 to 1.
+The second part involves the ensemble of two metrics, which starts with the Text Similarity Metric presented in [Textal Semantic Similarity](Textual_Semantic_Similarity). This metric calculates the similarity score between the original text prompt and the BLIP-generated captions, ranging from 0 to 1. Next, we use the Naturalness Metric described in [Video Naturalness](Video_Naturalness) section, a customised XGBoost classifier that takes the generated video as input and outputs a score ranging from 0 to 1.
 
 ---
 ## Project Highlights
-The study highlights the constraints of the current evaluation metrics used in the literature, identifying the need for a new evaluation metric that addresses these limitations. Our main contribution is a proposed evaluation metric which involves addressing two critical challenges: image naturalness and semantic matching. Our research demonstrates that the novel metric outperforms a commonly used metric, indicating that it is a reliable and valid evaluation tool.
+The study highlights the constraints of the current evaluation metrics used in the literature, identifying the need for a new evaluation metric that addresses these limitations. Our main contribution is a proposed evaluation metric which involves addressing two critical challenges: image naturalness and semantic matching. Our research demonstrates that the novel metric [Title](cid:3437%252AE95BD0FC-C10E-44FF-BB5F-9431E4530AA1)outperforms a commonly used metric, indicating that it is a reliable and valid evaluation tool.
 
 ### Results
 
@@ -51,10 +60,6 @@ They also included a ./setup.sh script if they are needed to run the code.
 ./
 ├── .git
 ├── .gitignore
-├── GDINO
-|    ├── Model.py (Script to run Grounding DINO on the generated videos)
-|    ├── GroundingDINO/ (Directory containing all the code need to run the model)
-|    └── AveragePrecision.py (Script used to calculate the Average Precision of a video)
 ├── T2V_models
 |    └── $MODEL_TYPE (A directory for each T2V model used)
 |        └── Model script (The Python code used to run the model)
@@ -65,18 +70,12 @@ They also included a ./setup.sh script if they are needed to run the code.
 |    └── Inception (**Philip**)
 |    └── image_statistics.py (Python script with functions to extract statistical properties of an image)
 |    └── video_processing.py (Python script to generate naturalness scores for videos)
-├── etc
-|    └── Conda shell script used to manage python virtual enviroments
-├── generated_videos
-|    ├── $MODEL_TYPE (The output of the T2V models)
-|    └── prompts.txt (The prompts used to generate the videos)
 ├── video_caption_generator
 |    ├── video_caption_generator.py (Generates captions for the frames of videos)
 |    └── video_captions.json (All the videos captions are stored here)
 ├── Dockerfile (Used to create the Docker Image used to run the code)
 ├── run_image.sh (Used to create the Docker Container)
 └── setup.sh (used to create the inital enviroment needed to run all the code)
-
 
 ```
  
