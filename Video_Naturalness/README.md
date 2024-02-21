@@ -8,13 +8,7 @@ To overcome this challenge, our project leverages the statistical properties of 
 
 ### Examples of Non-Natural Images
 
-<table>
-  <tr>
-    <td><img src="Video_Naturalness/assets/Non_natural_images_examples/non_natural_eg1.png" alt="Alt Text"></td>
-    <td><img src="Video_Naturalness/assets/Non_natural_images_examples/non_natural_eg2.png" alt="Alt Text"></td>
-    <td><img src="Video_Naturalness/assets/Non_natural_images_examples/non_natural_eg3.png" alt="Alt Text"></td>
-  </tr>
-</table>
+![Non_nat im1](/Users/AL56801/Downloads/new_repo/Evaluating-Text-to-Video-Models/Video_Naturalness/assets/Non_natural_images_examples/non_natural_eg1.png)![Non_nat im2](/Users/AL56801/Downloads/new_repo/Evaluating-Text-to-Video-Models/Video_Naturalness/assets/Non_natural_images_examples/non_natural_eg2.png)
 
 #### Statistical Properties of an Image:
 1. **The color distribution score** measures the uniformity of color in an image. A natural image tends to have a more uniform color distribution, while an unnatural image may have more abrupt changes in color.
