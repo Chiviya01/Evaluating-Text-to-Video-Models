@@ -8,7 +8,13 @@ To overcome this challenge, our project leverages the statistical properties of 
 
 ### Examples of Non-Natural Images
 
-| ![Non_nat im1](assets/Non_natural_images_examples/non_natural_eg1.png) | ![Non_nat im2](assets/Non_natural_images_examples/non_natural_eg2.png) | ![Non_nat im3](assets/Non_natural_images_examples/non_natural_eg3.png) |
+<table>
+  <tr>
+    <td><img src="assets/Non_natural_images_examples/non_natural_eg1.png" alt="Alt Text"></td>
+    <td><img src="assets/Non_natural_images_examples/non_natural_eg2.png" alt="Alt Text"></td>
+    <td><img src="assets/Non_natural_images_examples/non_natural_eg3.png" alt="Alt Text"></td>
+  </tr>
+</table>
 
 #### Statistical Properties of an Image:
 1. **The color distribution score** measures the uniformity of color in an image. A natural image tends to have a more uniform color distribution, while an unnatural image may have more abrupt changes in color.
@@ -30,10 +36,50 @@ XGBoost classifier has been trained and tuned via GridSearch on generated data t
 
 ## Examples of results
 
-| ![Balloon](generated_videos/Tune-a-video/Balloon_full_of_water_exploding_in_extreme_slow_motion.gif) <br> Naturalness score: 0.73036295 | ![Carnivorous Mammal](generated_videos/Tune-a-video/A_small_domesticated_carnivorous_mammal_with_soft_fur,_a_short_snout,_and_retractable_claws.gif) <br> Naturalness score: 0.94080323 | ![Battle](Video_Naturalness/assets/video_examples/flying_through_an_intense_battle_between_pirat_ships_in_a_stormy_ocean.gif) <br> Naturalness score: 0.90213525 |
-| --- | --- | --- |
-| ![Cat Eating](Video_Naturalness/assets/video_examples/A_cat_eating_food_out_of_a_bowl.gif) <br> Naturalness score: 0.9235693 | ![Twins](Video_Naturalness/assets/video_examples/Twins_eating_icecream_on_top_of_eiffel_tower_realistic.gif) <br> Naturalness score: 0.15744877 | ![Swarm of Bees](Video_Naturalness/assets/video_examples/A_swarm_of_bees_flying_around_their_hive.gif) <br> Naturalness score: 0.06740397 |
-| ![Example 1](Video_Naturalness/assets/video_examples/eg1.gif) <br> Naturalness score: 0.6321877 | ![Astronaut Riding a Horse](Video_Naturalness/assets/video_examples/An_astronaut_riding_a_horse.gif) <br> Naturalness score: 0.78292175 | ![Knight Riding on a Horse](Video_Naturalness/assets/video_examples/A_knight_riding_on_a_horse_through_the_countryside.gif) <br> Naturalness score: 0.11610969 |
+<table>
+  <tr>
+    <td style="text-align:center">
+      <img src="assets/video_examples/Balloon_full_of_water_exploding_in_extreme_slow_motion.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.73036295
+    </td>
+    <td style="text-align:center">
+      <img src="assets/video_examples/A_small_domesticated_carnivorous_mammal_with_soft_fur,_a_short_snout,_and_retractable_claws.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.94080323
+    </td>
+    <td style="text-align:center">
+      <img src="assets/video_examples/flying_through_an_intense_battle_between_pirat_ships_in_a_stormy_ocean.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.90213525
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center">
+      <img src="assets/video_examples/A_cat_eating_food_out_of_a_bowl.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.9235693
+    </td>
+    <td style="text-align:center">
+      <img src="assets/video_examples/Twins_eating_icecream_on_top_of_eiffel_tower_realistic.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.15744877
+    </td>
+    <td style="text-align:center">
+      <img src="assets/video_examples/A_swarm_of_bees_flying_around_their_hive.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.06740397
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center">
+      <img src="assets/video_examples/eg1.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.6321877
+    </td>
+    <td style="text-align:center">
+      <img src="assets/video_examples/An_astronaut_riding_a_horse.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.78292175
+    </td>
+    <td style="text-align:center">
+      <img src="assets/video_examples/A_knight_riding_on_a_horse_through_the_countryside.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.11610969
+    </td>
+  </tr>
+</table>
 
 ---
 ### Enviroment Setup
