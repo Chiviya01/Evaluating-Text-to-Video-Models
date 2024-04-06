@@ -31,7 +31,7 @@ To overcome this challenge, our project leverages the statistical properties of 
 #### Inception Score
 Modified Inception Score (MIS), which aims to assess the quality of the generated video by by calculating the mean probability distribution of frames in a video. The modified metric returns a larger value if the mean probability distribution of the frames in a video has low entropy.
 #### Trained Dataset
-The data that was used to train a classifier is presented in [Statistical_Video_Data.csv](Video_Naturalness/Classifier/Statistical_Video_Data.csv) .By extracting relevant statistical properties from images and utilizing a training dataset consisting of 187 videos from diverse models and real videos. The training data included 92 examples of natural videos and 95 of non natural.  
+The data that was used to train a classifier is presented in [Statistical_Video_Data.csv](Video_Naturalness/Classifier/Statistical_Video_Data.csv) .By extracting relevant statistical properties from images and utilizing a training dataset consisting of 187 videos from diverse models and real videos. All these videos can be found in [Video Dataset for Naturalness Classifier Training Folder](Video_Naturalness/Classifier/video_dataset_to_train) The training data included 92 examples of natural videos and 95 of non natural.  
 XGBoost classifier has been trained and tuned via GridSearch on generated data to provide accurate evaluations of video naturalness.
 
 ## Examples of results

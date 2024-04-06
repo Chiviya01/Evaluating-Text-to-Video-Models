@@ -31,7 +31,7 @@ The study highlights the constraints of the current evaluation metrics used in t
 
 ### Results
 
-The comprehensive outcomes of the experimentation conducted on 35 distinct text formats and 5 distinct T2V models are presented in the [Results](Results.xlsx). [Research Paper](Chivileva_Lynch_FinalYearProject.pdf) provides a detailed explanation of the project is available for review.
+
 
 ---
 ### Recommended Steps:
