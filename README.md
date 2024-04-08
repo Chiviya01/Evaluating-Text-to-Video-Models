@@ -30,35 +30,37 @@ The second part involves the ensemble of two metrics, which starts with the Text
 The study highlights the constraints of the current evaluation metrics used in the literature, identifying the need for a new evaluation metric that addresses these limitations. Our main contribution is a proposed evaluation metric which involves addressing two critical challenges: image naturalness and semantic matching. Our research demonstrates that the novel metric [Title](cid:3437%252AE95BD0FC-C10E-44FF-BB5F-9431E4530AA1)outperforms a commonly used metric, indicating that it is a reliable and valid evaluation tool.
 
 ### Results
+In this section we provide some generated videos with captions thier captions, that were used to generate them alongside with the breakdown of the results that were calculated as part of our metric. 
+
 
 <table>
   <tr>
     <td style="text-align:center">
       <img src="assets/results/leopard.gif" width="250" height="187.5">
-      <br>**Caption:** A snow leopard camouflaged among the snowy peaks of the Himalayas.<br>Naturalness Score: 0.9<br>Text Matching Score: 0.79
+      <br>A snow leopard camouflaged among the snowy peaks of the Himalayas.<br>Naturalness Score: 0.9<br>Text Matching Score: 0.79
     </td>
     <td style="text-align:center">
       <img src="assets/results/times_square.gif" width="250" height="187.5">
-      <br>Caption: Counting down in Times Square excitement fills the air.<br>Naturalness Score: 0.90<br>Text Matching Score: 0.60
+      <br>Counting down in Times Square excitement fills the air.<br>Naturalness Score: 0.90<br>Text Matching Score: 0.60
     </td>
     <td style="text-align:center">
       <img src="assets/results/thunder.gif" width="250" height="187.5">
-      <br>Caption: A drammatic thunderstorm with lightning illuminating the dark sky and rain pouring down in torrents.<br>Naturalness Score: 0.43 <br>Text Matching Score: 0.69 <br>
+      <br>A drammatic thunderstorm with lightning illuminating the dark sky and rain pouring down in torrents.<br>Naturalness Score: 0.43 <br>Text Matching Score: 0.69 <br>
     </td>
   </tr>
   <tr>
     <td style="text-align:center">
       <img src="assets/results/ballet.gif" width="250" height="187.5">
-      <br>Caption: Ballet dancers gracefully twirled outside the Sydney Opera House.<br>Naturalness Score: 0.72<br>Text Matching Score: 0.76
+      <br>Ballet dancers gracefully twirled outside the Sydney Opera House.<br>Naturalness Score: 0.72<br>Text Matching Score: 0.76
     </td>
     <td style="text-align:center">
       <img src="assets/results/lion.gif" width="250" height="187.5">
-      <br>Caption: A roaring lion standing proudly on a rocky outcrop.<br>Naturalness Score: 0.5<br>
+      <br>A roaring lion standing proudly on a rocky outcrop.<br>Naturalness Score: 0.5<br>
 Text Matching Score: 0.74
     </td>
     <td style="text-align:center">
       <img src="assets/results/puppy.gif" width="250" height="187.5">
-      <br>Caption: A puppy learning to walk.<br>Naturalness Score: 0.33<br>Text Matching Score: 0.43
+      <br>A puppy learning to walk.<br>Naturalness Score: 0.33<br>Text Matching Score: 0.43
     </td>
   </tr>
 </table>
