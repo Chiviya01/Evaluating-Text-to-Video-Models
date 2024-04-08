@@ -31,10 +31,37 @@ The study highlights the constraints of the current evaluation metrics used in t
 
 ### Results
 
-![Example_1](assets/results/leopard.gif)
-Caption: A snow leopard camouflaged among the snowy peaks of the Himalayas.
-Naturalness Score: 0.9
-Text Matching Score: 0.79
+<table>
+  <tr>
+    <td style="text-align:center">
+      <img src="assets/results/leopard.gif" width="250" height="187.5">
+      <br>Caption: A snow leopard camouflaged among the snowy peaks of the Himalayas.<br>Naturalness Score: 0.9<br>Text Matching Score: 0.79
+    </td>
+    <td style="text-align:center">
+      <img src="assets/results/times_square.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.94080323
+    </td>
+    <td style="text-align:center">
+      <img src="assets/results/thunder.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.90213525
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center">
+      <img src="assets/results/ballet.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.9235693
+    </td>
+    <td style="text-align:center">
+      <img src="assets/results/lion.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.15744877
+    </td>
+    <td style="text-align:center">
+      <img src="assets/results/puppy.gif" width="250" height="187.5">
+      <br>Naturalness score: 0.06740397
+    </td>
+  </tr>
+</table>
+
 
 ![Example_2](assets/results/ballet.gif)
 Caption: Ballet dancers gracefully twirled outside the Sydney Opera House.
@@ -52,9 +79,9 @@ Naturalness Score: 0.5
 Text Matching Score: 0.74
 
 ![Example_5](assets/results/thunder.gif)
-Caption: Ballet dancers gracefully twirled outside the Sydney Opera House.
-Naturalness Score: 0.72
-Text Matching Score: 0.76
+Caption: A drammatic thunderstorm with lightning illuminating the dark sky and rain pouring down in torrents.<br>
+Naturalness Score: 0.43 <br>
+Text Matching Score: 0.69 <br>
 
 ![Example_6](assets/results/puppy.gif)
 Caption: A puppy learning to walk.
