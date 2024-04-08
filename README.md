@@ -35,58 +35,34 @@ The study highlights the constraints of the current evaluation metrics used in t
   <tr>
     <td style="text-align:center">
       <img src="assets/results/leopard.gif" width="250" height="187.5">
-      <br>Caption: A snow leopard camouflaged among the snowy peaks of the Himalayas.<br>Naturalness Score: 0.9<br>Text Matching Score: 0.79
+      <br>**Caption:** A snow leopard camouflaged among the snowy peaks of the Himalayas.<br>Naturalness Score: 0.9<br>Text Matching Score: 0.79
     </td>
     <td style="text-align:center">
       <img src="assets/results/times_square.gif" width="250" height="187.5">
-      <br>Naturalness score: 0.94080323
+      <br>Caption: Counting down in Times Square excitement fills the air.<br>Naturalness Score: 0.90<br>Text Matching Score: 0.60
     </td>
     <td style="text-align:center">
       <img src="assets/results/thunder.gif" width="250" height="187.5">
-      <br>Naturalness score: 0.90213525
+      <br>Caption: A drammatic thunderstorm with lightning illuminating the dark sky and rain pouring down in torrents.<br>Naturalness Score: 0.43 <br>Text Matching Score: 0.69 <br>
     </td>
   </tr>
   <tr>
     <td style="text-align:center">
       <img src="assets/results/ballet.gif" width="250" height="187.5">
-      <br>Naturalness score: 0.9235693
+      <br>Caption: Ballet dancers gracefully twirled outside the Sydney Opera House.<br>Naturalness Score: 0.72<br>Text Matching Score: 0.76
     </td>
     <td style="text-align:center">
       <img src="assets/results/lion.gif" width="250" height="187.5">
-      <br>Naturalness score: 0.15744877
+      <br>Caption: A roaring lion standing proudly on a rocky outcrop.<br>Naturalness Score: 0.5<br>
+Text Matching Score: 0.74
     </td>
     <td style="text-align:center">
       <img src="assets/results/puppy.gif" width="250" height="187.5">
-      <br>Naturalness score: 0.06740397
+      <br>Caption: A puppy learning to walk.<br>Naturalness Score: 0.33<br>Text Matching Score: 0.43
     </td>
   </tr>
 </table>
 
-
-![Example_2](assets/results/ballet.gif)
-Caption: Ballet dancers gracefully twirled outside the Sydney Opera House.
-Naturalness Score: 0.72
-Text Matching Score: 0.76
-
-![Example_3](assets/results/times_square.gif)
-Caption: Counting down in Times Square excitement fills the air. 
-Naturalness Score: 0.90
-Text Matching Score: 0.60
-
-![Example_4](assets/results/lion.gif)
-Caption: A roaring lion standing proudly on a rocky outcrop.
-Naturalness Score: 0.5
-Text Matching Score: 0.74
-
-![Example_5](assets/results/thunder.gif)
-Caption: A drammatic thunderstorm with lightning illuminating the dark sky and rain pouring down in torrents.<br>
-Naturalness Score: 0.43 <br>
-Text Matching Score: 0.69 <br>
-
-![Example_6](assets/results/puppy.gif)
-Caption: A puppy learning to walk.
-Naturalness Score: 0.33
-Text Matching Score: 0.43
 ---
 ### Recommended Steps:
 
