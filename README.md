@@ -36,11 +36,30 @@ Caption: A snow leopard camouflaged among the snowy peaks of the Himalayas.
 Naturalness Score: 0.9
 Text Matching Score: 0.79
 
-![Example_2](assets/results/ballet.gifgif)
+![Example_2](assets/results/ballet.gif)
 Caption: Ballet dancers gracefully twirled outside the Sydney Opera House.
 Naturalness Score: 0.72
 Text Matching Score: 0.76
 
+![Example_3](assets/results/times_square.gif)
+Caption: Counting down in Times Square excitement fills the air. 
+Naturalness Score: 0.90
+Text Matching Score: 0.60
+
+![Example_4](assets/results/lion.gif)
+Caption: A roaring lion standing proudly on a rocky outcrop.
+Naturalness Score: 0.5
+Text Matching Score: 0.74
+
+![Example_5](assets/results/thunder.gif)
+Caption: Ballet dancers gracefully twirled outside the Sydney Opera House.
+Naturalness Score: 0.72
+Text Matching Score: 0.76
+
+![Example_6](assets/results/puppy.gif)
+Caption: A puppy learning to walk.
+Naturalness Score: 0.33
+Text Matching Score: 0.43
 ---
 ### Recommended Steps:
 
