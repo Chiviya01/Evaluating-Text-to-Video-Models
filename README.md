@@ -31,7 +31,15 @@ The study highlights the constraints of the current evaluation metrics used in t
 
 ### Results
 
+![Example_1](assets/results/leopard.gif)
+Caption: A snow leopard camouflaged among the snowy peaks of the Himalayas.
+Naturalness Score: 0.9
+Text Matching Score: 0.79
 
+![Example_2](assets/results/ballet.gifgif)
+Caption: Ballet dancers gracefully twirled outside the Sydney Opera House.
+Naturalness Score: 0.72
+Text Matching Score: 0.76
 
 ---
 ### Recommended Steps:
